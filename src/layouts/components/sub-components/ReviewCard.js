@@ -21,16 +21,14 @@ const ReviewCard = (props) => {
       return <i key={index} className="fas fa-star"></i>;
     }),
   };
-  
+
   return (
     <div className="box">
       <img src={commaLogo} alt="quote" />
       <p>{reviewDesc}</p>
       <img src={profileIcon} alt="customer-avatar" className="user" />
       <h3>{customer}</h3>
-      <div className="stars">
-        {iterate.rating_star}
-      </div>
+      <div className="stars">{iterate.rating_star}</div>
     </div>
   );
 };

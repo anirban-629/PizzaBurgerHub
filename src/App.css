@@ -249,7 +249,8 @@ a {
 
 .home {
   min-height: 100vh;
-  background: url(./layouts/assets/images/pizza-with-turkey-bacon-orange-and-cashew-nuts-2022-03-29-07-33-54-utc.jpg)
+  /* background: url(./layouts/assets/images/pizza-with-turkey-bacon-orange-and-cashew-nuts-2022-03-29-07-33-54-utc.jpg) */
+  background: url(https://us.123rf.com/450wm/altitudevisual/altitudevisual2212/altitudevisual221206407/195461861-pizza-on-dark-brown-background-surrounded-by-bowls-of-spices-and-fresh-vegetables.jpg?ver=6)
     no-repeat;
   background-size: cover;
   background-position: center;
