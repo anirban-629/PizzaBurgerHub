@@ -1,38 +1,25 @@
 // * Pictures
-export const burger1 =
-  "https://www.transparentpng.com/thumb/burger/hot-burger-king-hd-png-9dzyCE.png";
-export const burger2 =
-  "https://png.pngtree.com/png-clipart/20221001/ourmid/pngtree-fast-food-big-ham-burger-png-image_6244235.png";
-export const burger3 =
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9f1dnFvnFKgfrd6sYoUpD3cLebYcg_AUMjA&usqp=CAU";
-export const burger4 =
-  "https://www.pngmart.com/files/16/Bacon-Cheese-Burger-PNG-Clipart.png";
-export const burger5 =
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2GN2bp5ubf2j8ckoQda0g3i9WuTFvXq8RvQ&usqp=CAU";
-export const burger6 =
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXq6Z0y9XGPbSzw9TIGHFLUhIwTs3R2f9cHg&usqp=CAU";
-export const burger7 =
-  "https://freepngimg.com/thumb/burger/158353-cheese-bacon-burger-png-download-free.png";
-export const burger8 =
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPhNj76GqOD4p1FKu8hV-nY157JSOExWF7g&usqp=CAU";
-export const burger9 =
-  "https://c4.wallpaperflare.com/wallpaper/757/476/907/food-burgers-burger-white-background-wallpaper-preview.jpg";
-export const burger10 =
-  "https://www.clipartmax.com/png/middle/84-847388_hamburger-veggie-burger-fast-food-hot-dog-clip-art-transparent-background-cute.png";
-export const burger11 =
-  "https://www.clipartmax.com/png/middle/163-1631344_animated-burger-png-hd.png";
-export const burger12 =
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_upF9cgyXK9fYh85mVV-ZEYKw04JcTzUjLw&usqp=CAU";
-
-export const pizza1 =
-  "https://www.freeiconspng.com/thumbs/pizza-png/pizza-png-23.png";
-export const pizza3 =
-  "https://www.transparentpng.com/thumb/pizza/hLgXMl-pizza-images-download.png";
-export const pizza4 =
-  "https://www.freeiconspng.com/thumbs/pizza-png/pizza-png-23.png";
-
 export const logo = require("./images/pngegg.png");
+export const burger1 = require("./images/delicious-burger-on-wooden-board-2022-03-04-05-58-25-utc.jpg");
+export const burger2 = require("./images/delicious-tasty-burgers-on-wooden-background-2021-08-26-15-25-13-utc.jpg");
+export const burger3 = require("./images/handmade-burger-on-dark-background-delicious-blac-2021-10-21-02-27-27-utc.jpg");
+export const burger4 = require("./images/pngwing.com (2).png");
+export const burger5 = require("./images/pngwing.com (3).png");
+export const burger6 = require("./images/pngwing.com (4).png");
+export const burger7 = require("./images/pngwing.com (5).png");
+export const burger8 = require("./images/pngwing.com (6).png");
+export const burger9 = require("./images/pngwing.com (7).png");
+export const burger10 = require("./images/pngwing.com (12).png");
+export const burger11 = require("./images/pngwing.com (13).png");
+export const burger12 = require("./images/pngwing.com (14).png");
+
+export const pizza1 = require("./images/pizza-with-salami-italian-food-2022-01-10-22-56-05-utc.jpg");
+export const pizza2 = require("./images/pizza-with-turkey-bacon-orange-and-cashew-nuts-2022-03-29-07-33-54-utc.jpg");
+export const pizza3 = require("./images/pngwing.com (1).png");
+export const pizza4 = require("./images/pngwing.com.png");
+
 export const commaLogo = require("./images/pngwing.com (8).png");
+
 export const profileIcon1 = require("./images/pngwing.com (9).png");
 export const profileIcon2 = require("./images/pngwing.com (10).png");
 export const profileIcon3 = require("./images/pngwing.com (11).png");
