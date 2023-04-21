@@ -3,8 +3,8 @@ import { burger1, burger2, burger3 } from "../assets";
 import BlogCard from "../components/sub-components/BlogCard";
 import PageHeading from "../components/sub-components/PageHeading";
 
-const Blog = () => {
-  document.title = "NS | Blog";
+const Blog = ({ title }) => {
+  document.title = title || "NS";
   const blog_items = [
     {
       publish_at: "by admin / 10st may, 2020",

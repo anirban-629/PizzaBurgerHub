@@ -3,8 +3,8 @@ import { commaLogo, profileIcon1, profileIcon2, profileIcon3 } from "../assets";
 import PageHeading from "../components/sub-components/PageHeading";
 import ReviewCard from "../components/sub-components/ReviewCard";
 
-const Review = () => {
-  document.title = "NS | Review";
+const Review = ({ title }) => {
+  document.title = title || "NS";
   const reviews = [
     {
       commaLogo: commaLogo,

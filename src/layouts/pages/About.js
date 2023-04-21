@@ -4,8 +4,8 @@ import AboutText from "../components/sub-components/AboutText";
 import Button from "../components/sub-components/Button";
 import PageHeading from "../components/sub-components/PageHeading";
 
-const About = () => {
-  document.title = "NS | About";
+const About = ({ title }) => {
+  document.title = title || "NS";
   const texts = [
     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia officia id et, corrupti assumenda.",
     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia officia id et, corrupti assumenda.",

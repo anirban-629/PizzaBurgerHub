@@ -17,12 +17,12 @@ const Page = () => {
       <Navbar data={order_imgs} />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/review" element={<Review />} />
-        <Route path="/products" element={<Product />} />
+        <Route path="/contact" element={<Contact title="NS | Contact" />} />
+        <Route path="/about" element={<About title="NS | About" />} />
+        <Route path="/menu" element={<Menu title="NS | Menu" />} />
+        <Route path="/blog" element={<Blog title="NS | Blog" />} />
+        <Route path="/review" element={<Review title="NS | Review" />} />
+        <Route path="/products" element={<Product title="NS | Product" />} />
       </Routes>
       <Footer />
     </BrowserRouter>

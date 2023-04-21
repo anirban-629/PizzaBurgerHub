@@ -3,8 +3,8 @@ import { ContactInput } from "../components";
 import Button from "../components/sub-components/Button";
 import PageHeading from "../components/sub-components/PageHeading";
 
-const Contact = () => {
-  document.title = "NS | Contact";
+const Contact = ({title}) => {
+  document.title = title || "NS";
   return (
     <>
       <section className="contact" id="contact">

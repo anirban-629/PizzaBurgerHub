@@ -8,7 +8,6 @@ import Product from "./Product";
 import Review from "./Review";
 
 const Home = () => {
-  document.title = "NS";
   return (
     <>
       <section className="home" id="home">

@@ -3,8 +3,8 @@ import { burger4, burger5, pizza3, pizza4 } from "../assets";
 import MenuCard from "../components/sub-components/MenuCard";
 import PageHeading from "../components/sub-components/PageHeading";
 
-const Menu = () => {
-  document.title = "NS | Menu";
+const Menu = ({title}) => {
+  document.title = title || "NS";
   const order_items = [
     {
       order_img: pizza4,

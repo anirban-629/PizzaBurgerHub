@@ -3,8 +3,8 @@ import { burger6, burger7, burger8 } from "../assets";
 import { ProductCard } from "../components";
 import PageHeading from "../components/sub-components/PageHeading";
 
-const Product = () => {
-  document.title = "NS | Product";
+const Product = ({title}) => {
+  document.title = title || "NS";
   const product_items = [
     {
       title: "mini burger",
